@@ -76,7 +76,6 @@ Deployment ID_# should be the id of the print functions deployment.
 SL ID_# should be the id of the print function scipt itself.
 
 ![image](https://github.com/user-attachments/assets/37e7dc22-f948-4b74-ac52-0bc12a49756d)
-![image](https://github.com/user-attachments/assets/80c2eb64-9f97-489d-8d3c-2ab7d1fccd58)
 
 Here are the script records and what they look like for reference.
 ![image](https://github.com/user-attachments/assets/a204a0fd-8514-47f3-bc8e-6b4012a1954d)
