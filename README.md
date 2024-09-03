@@ -5,7 +5,7 @@ This repository contains two NetSuite custom scripts that work together to gener
 ## Overview
 
 ### Script 1: UserEventScript
-This script is a `UserEventScript` that adds a custom button to a specific record's form when the record is viewed. The button, when clicked, triggers the `Suitelet` script to generate a PDF document.
+This script is a `UserEventScript` that adds a custom button to a specific record's form when the record is viewed. The button, when clicked, triggers the `Suitelet` script to generate a PDF document. The information for this PDF is pulled from the record being worked on, and the template is in the Advanced HTML/PDF section.
 
 ### Script 2: Suitelet
 The `Suitelet` script is responsible for generating the PDF document for the selected transaction record using a custom HTML template. Once generated, the PDF is displayed in a new browser window.
@@ -36,7 +36,7 @@ The `Suitelet` script is responsible for generating the PDF document for the sel
   - The generated PDF is displayed inline in a new browser window.
 
 - **Key Parameters:**
-  - `custscript_sl_template_id_1`: The ID of the custom HTML template used for generating the PDF.
+  - `custscript_sl_template_id_1`: Gets the ID of the custom HTML template used for generating the PDF.
 
 ## How It Works
 
@@ -49,7 +49,7 @@ The `Suitelet` script is responsible for generating the PDF document for the sel
    - The Suitelet script receives the transaction ID from the URL parameters.
    - It generates a PDF for the transaction using the specified HTML template.
    - The generated PDF is named with a combination of the document type and the transaction number (e.g., `Commercial Inv_12345.pdf`).
-   - The PDF is displayed inline in the browser for the user.
+   - The PDF is downloaded through a new window for the user.
 
 ## Usage
 
