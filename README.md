@@ -64,6 +64,7 @@ On this copy, ensure that you select the PDF Template you want to use as the def
 
 Optionally but recommended, make the record inactive so it doesn't appear as an option to use for your users.
 Once saved, keep a record of the internal id.
+![image](https://github.com/user-attachments/assets/7c331671-590c-4b88-82ee-489bcef14c88)
 
 Back to the scripts, you want to set up the Print Function before the Print Button.
 On the deployment parameter for the Function Script, set the Template ID to the one you just saved of the Transaction Form.
@@ -74,13 +75,12 @@ Custom Form_# should again be the internal id of the transaction form.
 Deployment ID_# should be the id of the print functions deployment.
 SL ID_# should be the id of the print function scipt itself.
 
+![image](https://github.com/user-attachments/assets/37e7dc22-f948-4b74-ac52-0bc12a49756d)
+![image](https://github.com/user-attachments/assets/80c2eb64-9f97-489d-8d3c-2ab7d1fccd58)
+
+Here are the script records and what they look like for reference.
 ![image](https://github.com/user-attachments/assets/a204a0fd-8514-47f3-bc8e-6b4012a1954d)
 ![image](https://github.com/user-attachments/assets/516a68da-d78e-4320-af37-c60f8084af77)
-
-![image](https://github.com/user-attachments/assets/7c331671-590c-4b88-82ee-489bcef14c88)
-![image](https://github.com/user-attachments/assets/37e7dc22-f948-4b74-ac52-0bc12a49756d)
-
-![image](https://github.com/user-attachments/assets/80c2eb64-9f97-489d-8d3c-2ab7d1fccd58)
 
 ## Contributions
 
