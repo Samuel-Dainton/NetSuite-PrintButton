@@ -63,7 +63,7 @@ On this copy, ensure that you select the PDF Template you want to use as the def
 ![image](https://github.com/user-attachments/assets/d4a40a18-64c4-415a-8b3f-bacd1aca7502)
 
 Optionally but recommended, make the record inactive so it doesn't appear as an option to use for your users.
-Once saved, keep a record of the internal id.
+Once saved, keep a record of the internal id. If you want to use the print from multiple records, you will need multiple scripts, deployments and may also need to change the fields on your HTML template.
 ![image](https://github.com/user-attachments/assets/7c331671-590c-4b88-82ee-489bcef14c88)
 
 Back to the scripts, you want to set up the Print Function before the Print Button.
