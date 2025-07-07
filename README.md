@@ -76,6 +76,8 @@ Custom Form_# should again be the internal id of the transaction form.
 Deployment ID_# should be the id of the print functions deployment.
 SL ID_# should be the id of the print function scipt itself.
 
+Lastly, back in the script, update the parameter id's to match those that you just created. Also on the SL script, update the record.load type so that it loads the correct type of record.
+
 ![image](https://github.com/user-attachments/assets/37e7dc22-f948-4b74-ac52-0bc12a49756d)
 
 Here are the script records and what they look like for reference.
