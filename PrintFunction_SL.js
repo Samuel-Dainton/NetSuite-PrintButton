@@ -22,7 +22,7 @@ function(record, render, runtime) {
     function onRequest(context) {
         // Retrieve the custom template ID from the script parameters
         var intTemplateId = runtime.getCurrentScript().getParameter({
-            name: 'custscript_sl_template_id_1',
+            name: 'custscript_sl_cust_form_1',
         });
 
         // Retrieve the transaction ID from the request parameters
