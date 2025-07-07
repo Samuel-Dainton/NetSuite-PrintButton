@@ -52,7 +52,7 @@ The `Suitelet` script is responsible for generating the PDF document for the sel
    - The PDF is downloaded through a new window for the user.
 
 ## Usage
-
+In the SL script, 
 Deploy the `UserEventScript` and `Suitelet` scripts in your NetSuite account.
 
 To set up the scripts, the following parameters need to be set and records created.
@@ -66,11 +66,12 @@ Optionally but recommended, make the record inactive so it doesn't appear as an 
 Once saved, keep a record of the internal id. If you want to use the print from multiple records, you will need multiple scripts, deployments and may also need to change the fields on your HTML template.
 ![image](https://github.com/user-attachments/assets/7c331671-590c-4b88-82ee-489bcef14c88)
 
-Back to the scripts, you want to set up the Print Function before the Print Button.
-On the deployment parameter for the Function Script, set the Template ID to the one you just saved of the Transaction Form.
+Back to the scripts, you want to set up the Print Function before the Print Button. Set up a parameter, free-form-text with the id _sl_cust_form_{formid}
+On the deployment parameter for the Function Script, set the Template ID to the one you just saved of the Transaction Form. Also make sure you set the deployment to run as Admin and available without login.
 ![image](https://github.com/user-attachments/assets/700688ba-91d4-47e9-b2aa-c2fa52e3ad12)
 
-On the button script deployment, set the parameters as follows:
+On the button script, set 3 more parameters, all free-form-text with id's _ue_cust_form_{formid}, _ue_deployment_id_{formid} and _ue_script_id_{formid}.
+On the deployment, set the parameters as follows:
 Custom Form_# should again be the internal id of the transaction form.
 Deployment ID_# should be the id of the print functions deployment.
 SL ID_# should be the id of the print function scipt itself.
